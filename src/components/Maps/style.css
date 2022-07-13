@@ -1,0 +1,18 @@
+.map-container {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+
+    }
+    .mapboxgl-canvas{
+        border-radius: 5px;
+    }
+    .map-container ::before{
+        display: none;
+    }
+     .mapboxgl-ctrl, .mapboxgl-ctrl-attrib, .mapboxgl-compact{
+        display: none;
+     }
+    .sidebar {
+    display: none;
+    }
